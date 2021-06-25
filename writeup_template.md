@@ -1,6 +1,16 @@
-## Writeup Template
+## Advanced Lane Finding
 
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
+### T his project is a simple solution to finding lanes for the Advance Lane Finding Project in the udacity nano degree. The steps followed are:
+
+1. Calibrate camera
+2. Undistort Image
+3. Color gradient
+4. Alter perspective to "birds-eye view"
+5. Find lane pixels
+6. Use sliding window
+7. skip sliding window if previous best fit exists
+8. Fit polinomial
+9. Output results to original image
 
 ---
 
@@ -19,9 +29,9 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/undistort_output.png "Undistorted"
-[image2]: ./test_images/test1.jpg "Road Transformed"
-[image3]: ./examples/binary_combo_example.jpg "Binary Example"
+[image1]: ./output_images/calibration_output.png "Calibration"
+[image2]: ./output_images/undistorted_output.png "Undistorted"
+[image3]: ./output_images/color_gradient_output.png "COlor Gradient"
 [image4]: ./examples/warped_straight_lines.jpg "Warp Example"
 [image5]: ./examples/color_fit_lines.jpg "Fit Visual"
 [image6]: ./examples/example_output.jpg "Output"
